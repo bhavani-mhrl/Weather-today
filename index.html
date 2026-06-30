@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search-engine">
+            <input type="search" placeholder="Enter a city..." id="search-input">
+            <button type="submit" id="submit-button"><i class="fa-brands fa-sistrix"></i></button>
+        </div>
+        <div class="weather-app-information">
+            <img src="image.png" alt="sun icon" id="image-icon">
+            <div class="weather-temperature" id="weather-temperature">22°C</div>
+            <div class="weather-city" id="weather-city">Bengaluru</div>
+        </div>
+        <div class="weather-forecast-details">
+            <div>
+                <div class="weather-humidity-details forecast">
+                    <div class="forecast-icon humidity-icon">
+                        <i class="fa-solid fa-water"></i>
+                    </div>
+                    <div class="humidity-temp forecast-temp" id="humidity-temp">
+                        53%
+                    </div>
+                </div>
+                <div>Humidity</div>
+            </div>
+            <div>
+                <div class="weather-windspeed-details forecast">
+                    <div class="forecast-icon windspeed-icon">
+                        <i class="fa-solid fa-wind "></i>
+                    </div>
+                    <div class="windspeed-temp forecast-temp" id="windspeed-temp">
+                        5.6km/h
+                    </div>
+                </div>
+                <div>Wind Speed</div>
+            </div>
+        </div>
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
